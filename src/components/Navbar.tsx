@@ -47,12 +47,12 @@ export default function Navbar() {
                 }`}
         >
             <Link href="/" className="flex items-center gap-2">
-                {/* Placeholder Logo or Text if image missing */}
-                <div className="relative w-32 h-12">
+                {/* Logo */}
+                <div className="h-12 w-auto">
                     <img
-                        src="/images/logo-new.png"
+                        src="/images/logo-orange.png"
                         alt="HomeMade Logo"
-                        className="object-contain w-full h-full"
+                        className="h-full w-auto object-contain rounded-md"
                     />
                 </div>
             </Link>
